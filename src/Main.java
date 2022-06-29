@@ -2,12 +2,15 @@ public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println("method");
+
+
+        int sum=addieren(3,5);
+        System.out.println(sum);
     }
 
-        public static int duplicate(int value){
+        public static int addieren(int x, int y){
 
-            return value+3;
+            return x+y;
         }
 
 
