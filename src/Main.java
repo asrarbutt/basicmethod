@@ -8,10 +8,14 @@ public class Main {
 
         int x, y;
 
+        System.out.println("==================");
         int sum = add(3, 5);
         System.out.println(sum);
 
+        System.out.println("===================");
         System.out.println(compare(70, 500));
+
+        System.out.println("==================");
 
         Scanner sc = new Scanner(System.in);
 
@@ -22,7 +26,7 @@ public class Main {
 
         System.out.println("mit Scanner : " + add(x, y));
 
-        System.out.println("==================================");
+        System.out.println("================================== Zahl größer als 100?");
 
         System.out.println(compare(x, y));
 
