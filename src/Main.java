@@ -30,6 +30,14 @@ public class Main {
 
         System.out.println(compare(x, y));
 
+
+        System.out.println(greaterThen20("ASrar"));
+
+
+        System.out.println("============string checker");
+
+        System.out.println(stringChecker("fancy"));
+
     }
 
     public static int add(int x, int y) {
@@ -44,5 +52,20 @@ public class Main {
 
     }
 
+    public static boolean greaterThen20(String input){
+
+        System.out.println("==========String eingabe > 20");
+        return input.length()>20;
+
+    }
+
+    public static boolean containStr(String str, String element){
+        return str.contains(element);
+
+    }
+
+    public static boolean stringChecker(String str){
+        return greaterThen20(str) && containStr(str, "fancy");
+    }
 
 }
