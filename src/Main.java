@@ -39,12 +39,8 @@ public class Main {
 
     public static boolean compare(int i, int p) {
 
-        if (i > 100 || p > 100) {
-            return true;
-        } else {
-            return false;
+        return (i>100 || p >100);
 
-        }
 
     }
 
